@@ -59,7 +59,7 @@ class UpdateRecords
         $record1->addKeyValue("Custom_field", "Value");
         $record1->addKeyValue("Custom_field_2", "value");
         $recordOwner = new MinifiedUser();
-        $recordOwner->setEmail("abc@gmail.com");
+        $recordOwner->setEmail("abc@zoho.com");
         $record1->addKeyValue("Owner", $recordOwner);
         /** Following methods are being used only by Inventory modules */
         $vendorName = new Record();

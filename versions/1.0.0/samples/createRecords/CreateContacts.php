@@ -43,7 +43,7 @@ class CreateContacts
         $record1 = new Record();
         $record1->addFieldValue(Contacts::LastName(), 'Last Name');
         $record1->addFieldValue(Contacts::FirstName(), 'First Name');
-        $record1->addFieldValue(Contacts::Email(), 'abc12@gmail.com');
+        $record1->addFieldValue(Contacts::Email(), 'abc12@zoho.com');
         $record1->addFieldValue(Contacts::Title(), 'Title');
         $record1->addFieldValue(Contacts::Phone(), '1101');
         $record1->addFieldValue(Contacts::Department(), 'Department name');
@@ -56,7 +56,7 @@ class CreateContacts
         $record1->addFieldValue(Contacts::AsstPhone(), '123321');
         $record1->addFieldValue(Contacts::EmailOptOut(), true);
         $record1->addFieldValue(Contacts::SkypeID(), 'skype_123');
-        $record1->addFieldValue(Contacts::SecondaryEmail(), 'abc1@gmail.com');
+        $record1->addFieldValue(Contacts::SecondaryEmail(), 'abc1@zoho.com');
         $record1->addFieldValue(Contacts::Twitter(), 'twitter_55');
         $account_name = new Record();
         $account_name->setId("440248001179025");

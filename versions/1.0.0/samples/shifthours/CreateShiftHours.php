@@ -35,7 +35,7 @@ class CreateShiftHours
     }
     public static function createShiftHours()
     {
-        $shifthoursOperations = new ShiftHoursOperations("673573045");
+        $shifthoursOperations = new ShiftHoursOperations("12345");
         $request = new BodyWrapper();
         $shiftHours = array();
         $shifthour = new ShiftHours();

@@ -41,22 +41,22 @@ class Associate
         {
             $associateEmail = new AssociateEmail();
             $from = new From();
-            $from->setEmail("abc@gmail.com");
+            $from->setEmail("abc@zoho.com");
             $from->setUserName("username");
             $associateEmail->setFrom($from);
             $tos = array();
             $to = new To();
-            $to->setEmail("abc1@gmail.com");
+            $to->setEmail("abc1@zoho.com");
             $to->setUserName("username1");
             array_push($tos, $to);
             $tos1 = array();
             $to1 = new To();
-            $to1->setEmail("abc2@gmail.com");
+            $to1->setEmail("abc2@zoho.com");
             $to1->setUserName("user_name2");
             array_push($tos1, $to1);
             $tos2 = array();
             $to2 = new To();
-            $to2->setEmail("abc3@gmail.com");
+            $to2->setEmail("abc3@zoho.com");
             $to2->setUserName("user_name3");
             array_push($tos2, $to2);
             $associateEmail->setTo($tos);

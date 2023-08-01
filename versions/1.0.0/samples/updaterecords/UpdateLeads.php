@@ -50,9 +50,9 @@ class UpdateLeads
         $record1->addFieldValue(Leads::FirstName(), "First Name");
         $record1->addFieldValue(Leads::FirstName(), "First Name");
         $record1->addFieldValue(Leads::AnnualRevenue(), 1002.2);
-        $record1->addFieldValue(Leads::Email(), "abc@gmail.com");
+        $record1->addFieldValue(Leads::Email(), "abc@zoho.com");
         $record1->addKeyValue("Title", "title");
-        $record1->addFieldValue(Leads::SecondaryEmail(), "abc1@gmail.com");
+        $record1->addFieldValue(Leads::SecondaryEmail(), "abc1@zoho.com");
         $record1->addFieldValue(Leads::Phone(), "131131");
         $record1->addFieldValue(Leads::Fax(), "Fax");
         $record1->addFieldValue(Leads::Mobile(), "2010101");
