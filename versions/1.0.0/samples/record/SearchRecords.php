@@ -51,7 +51,7 @@ class SearchRecords
         $paramInstance = new ParameterMap();
         $paramInstance->add(SearchRecordsParam::criteria(), "((Last_Name:starts_with:Last Name) or (Company:starts_with:fasf\\(123\\) K))");
         // $paramInstance->add(SearchRecordsParam::criteria(), "(External:in:External1)");
-        $paramInstance->add(SearchRecordsParam::email(), "username@gmail.com");
+        $paramInstance->add(SearchRecordsParam::email(), "username@zoho.com");
         $paramInstance->add(SearchRecordsParam::phone(), "234567890");
         $paramInstance->add(SearchRecordsParam::word(), "First Name Last Name");
         $paramInstance->add(SearchRecordsParam::converted(), "both");

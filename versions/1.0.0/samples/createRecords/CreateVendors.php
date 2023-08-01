@@ -43,7 +43,7 @@ class CreateVendors
         $record1 = new Record();
         $record1->addFieldValue(Vendors::VendorName(), "new Vendor Name");
         $record1->addFieldValue(Vendors::Phone(), "12133121");
-        $record1->addFieldValue(Vendors::Email(), "abc@gmail.com");
+        $record1->addFieldValue(Vendors::Email(), "abc@zoho.com");
         $record1->addFieldValue(Vendors::Website(), null);
         $record1->addFieldValue(Vendors::GLAccount(), new Choice("Sales-Software"));
         $record1->addFieldValue(Vendors::Category(), "");

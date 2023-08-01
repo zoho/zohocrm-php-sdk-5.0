@@ -55,7 +55,7 @@ class UpdatePriceBooks
         $pricingDetail2->addKeyValue("discount", 3.0);
         array_push($pricingDetails, $pricingDetail2);
         $record1->addFieldValue(Price_Books::PricingDetails(), $pricingDetails);
-        $record1->addKeyValue("Email", "abc@gmail.com");
+        $record1->addKeyValue("Email", "abc@zoho.com");
         $record1->addFieldValue(Price_Books::Description(), "description");
         $record1->addFieldValue(Price_Books::PriceBookName(), "book_name");
         $record1->addFieldValue(Price_Books::PricingModel(), new Choice("Flat"));

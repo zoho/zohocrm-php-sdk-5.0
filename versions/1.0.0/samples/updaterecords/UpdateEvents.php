@@ -50,7 +50,7 @@ class UpdateEvents
         $record1->addFieldValue(Events::StartDateTime(), date_create("2020-06-02T11:03:06+05:30")->setTimezone(new \DateTimeZone(date_default_timezone_get())));
         $participants = array();
         $participant1 = new Participants();
-        $participant1->setEmail("abc@gmail.com");
+        $participant1->setEmail("abc@zoho.com");
         $participant1->setType("email");
         $participant1->setId("34569023245");
         array_push($participants, $participant1);

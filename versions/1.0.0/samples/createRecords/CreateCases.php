@@ -56,7 +56,7 @@ class CreateCases
         $accountName = new Record();
         $accountName->setId("440248001331009");
         $record1->addFieldValue(Cases::AccountName(), $accountName);
-        $record1->addFieldValue(Cases::Email(), "abc@gmail.com");
+        $record1->addFieldValue(Cases::Email(), "abc@zoho.com");
         $record1->addFieldValue(Cases::Priority(), new Choice("Low"));
         $record1->addFieldValue(Cases::CaseReason(), new Choice("New problem"));
         $dealName = new Record();

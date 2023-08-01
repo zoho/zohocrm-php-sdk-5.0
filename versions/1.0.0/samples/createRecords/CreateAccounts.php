@@ -43,7 +43,7 @@ class CreateAccounts
         $record1 = new Record();
         $record1->addFieldValue(Accounts::AccountName(), 'New Account');
         $record1->addFieldValue(Accounts::Phone(), '1010101');
-        $record1->addKeyValue("Email", 'abc@gmail.com');
+        $record1->addKeyValue("Email", 'abc@zoho.com');
         $record1->addFieldValue(Accounts::Fax(), 'fax');
         $record1->addFieldValue(Accounts::AccountSite(), 'www.account.com');
         $record1->addFieldValue(Accounts::Website(), 'website.com');

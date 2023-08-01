@@ -96,7 +96,7 @@ You can include the SDK to your project using:
   - Run the command below:
 
     ```sh
-    composer require zohocrm/php-sdk-5.0
+    composer require zohocrm/php-sdk-5.0:1.0.0
     ```
 
   - The PHP SDK will be installed and a package named vendor will be created in the workspace of your client app.
@@ -878,7 +878,7 @@ class CreateRecords
         $record1->addFieldValue(Leads::Company(), "company");
         $record1->addFieldValue(Leads::LastName(), "FROm PHP");
         $record1->addFieldValue(Leads::FirstName(), "First Name");
-        $record1->addFieldValue(Leads::Email(), "abc@gmail.com");
+        $record1->addFieldValue(Leads::Email(), "abc@zoho.com");
         $tagList = array();
         $tag = new Tag();
         $tag->setName("TestTask");
