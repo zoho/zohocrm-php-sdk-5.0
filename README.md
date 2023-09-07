@@ -28,15 +28,13 @@ License
 
 - [2.1.0](/versions/2.1.0/README.md)
 
-    - BulkWrite UploadFile API Issue fixed. 
+    - Fixed an issue with the BulkWrite UploadFile API.
 
 - [2.0.0](/versions/2.0.0/README.md)
 
-    - Records APIs Issue fixed. 
-        - Supported delete operation in multi-select lookup, multi-user lookup, image upload, and subform fields.
-    - Email related records API pagination Issue fixed.
-        - Handled ***next_index*** and ***prev_index*** field datatype.
-    - User-specific fields meta class name conflicts resolved.
+    - **Records API:** Fix to support delete operation for multi-select lookup, multi-user lookup, image upload, and subform fields.
+    - **Email-related records API:** API pagination fix to handle ***next_index*** and ***prev_index*** field datatype.
+    - **User-specific fields:** Resolved conflicts in the metaclass names of user-specific fields.
 
 - [1.0.0](/versions/1.0.0/README.md)
 
